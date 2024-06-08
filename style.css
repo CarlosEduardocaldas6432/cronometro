@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(9, 115, 148);
+}
+
+
+h1 {
+
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    margin-left: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #53a2e6; /* Azul claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.painel {
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cronometro{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+    font: normal 60px arial;
+}
+
+.botoes{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+}
